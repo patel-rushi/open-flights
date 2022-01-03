@@ -19,7 +19,7 @@ const Title = styled.div`
 `
 const Description = styled.div`
     padding: 10px 0 20px 0;
-    font-size: 21px;
+    font-size: 20px;
 `
 
 const Review= (props) =>{

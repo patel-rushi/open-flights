@@ -7,42 +7,38 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 airlines= Airline.create([
     {
-        name: "A. United Airlines",
-        image_url: "https://patel-rushi.github.io/"
+        name: "Air Canada",
+        image_url: "/airline-logo-images/aircanada.jpeg"
     },
     {
-        name:"B. United Airlines",
-        image_url:"https://patel-rushi.github.io/"
+        name:"Air India",
+        image_url: "/airline-logo-images/airindia.png"
     },
     {
-        name:"C. United Airlines",
-        image_url:"https://patel-rushi.github.io/"
+        name:"Emirates",
+        image_url: "/airline-logo-images/emirates.png"
     },
     {
-        name:"D. United Airlines",
-        image_url:"https://patel-rushi.github.io/"
+        name:"American Airlines",
+        image_url: "/airline-logo-images/americanairline.png"
     },
     {
-        name:"E. United Airlines",
-        image_url:"https://patel-rushi.github.io/"
-    },
-    {
-        name:"F. United Airlines",
-        image_url:"https://patel-rushi.github.io/"
+        name:"Spice Jet",
+        image_url: "/airline-logo-images/spicejet.png"
     }
 ])
 
-reviews= Review.create([
-    {
-        title: 'Great Airlines',
-        description: 'kajsndajsnd',
-        score: 5,
-        airline: airlines.first
-    },
-    {
-        title: 'Bad Airlines',
-        description: 'kajsndajsnd',
-        score: 1,
-        airline: airlines.first
-    }
-])
+# reviews= Review.create([
+#     {
+#         title: 'Great Airlines',
+#         description: 'kajsndajsnd',
+#         score: 5,
+#         airline_id: 
+#     },
+#     {
+#         title: 'Bad Airlines',
+#         description: 'kajsndajsnd',
+#         score: 1,
+#         airline: airlines.first
+#     }
+# ])

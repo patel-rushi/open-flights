@@ -27,6 +27,8 @@
     color: #ffc315;
 }
 @import url('../fontawesome-free-5.15.4-web/css/all.css');
+@import url('../../../../app/assets/fontawesome-free-5.15.4-web/css/all.css');
+
 
 .star-wrapper::before, .stars::before{
     font-family: "Font Awesome 5 Free";

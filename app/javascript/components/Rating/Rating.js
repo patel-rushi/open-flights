@@ -7,8 +7,8 @@ const Rating = (props) => {
         <span className='star-wrapper'>
             <span className='stars' style={{width: score+"%"}}>
             </span>
-            <i class="far fa-address-book"></i>
-            <i class="fab fa-github"></i>
+            {/* <i class="far fa-address-book"></i>
+            <i class="fab fa-github"></i> */}
             
         </span>
     )

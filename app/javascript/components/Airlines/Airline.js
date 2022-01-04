@@ -48,8 +48,8 @@ const Airline = (props) =>{
             <img src={props.attributes.image_url} alt={props.attributes.name}></img>
             </AirlineLogo>
             <AirlineName>{props.attributes.name}</AirlineName>
-            <Rating score={props.attributes.avg_score}></Rating>
-            {/* <div className='airline-score'>{props.attributes.avg_score}</div> */}
+            {/* <Rating score={props.attributes.avg_score}></Rating> */}
+            <div className='airline-score'>{props.attributes.avg_score}</div>
             <LinkWrapper>
                 <Link to={`/airlines/${props.attributes.slug}`}>View Airlines</Link>
             </LinkWrapper>

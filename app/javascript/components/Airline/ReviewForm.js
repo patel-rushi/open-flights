@@ -32,8 +32,6 @@ label{
     background-repeat: no-repeat;
     background-position:center;
     background-size:70%;
-
-
 }
 
 input:checked ~ label,

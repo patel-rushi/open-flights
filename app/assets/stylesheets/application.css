@@ -26,9 +26,10 @@
     white-space: nowrap;
     color: #ffc315;
 }
-@import url('../fontawesome-free-5.15.4-web/css/fontawesome.min.css');
-@import url('../../../../app/assets/fontawesome-free-5.15.4-web/css/fontawesome.min.css');
 
+/* @import url('../fontawesome-free-5.15.4-web/css/fontawesome.min.css'); */
+/* @import url('../../../../app/assets/fontawesome-free-5.15.4-web/css/fontawesome.min.css'); */
+@import url('../fontawesome-free-5.15.4-web/css/all.min.css');
 .star-wrapper::before, .stars::before{
     font-family: "Font Awesome 5 Free";
     content: "\f005 \0020 \f005 \0020 \f005 \0020 \f005 \0020 \f005 \0020";

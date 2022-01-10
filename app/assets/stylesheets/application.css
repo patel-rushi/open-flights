@@ -29,7 +29,7 @@
 
 /* @import url('../fontawesome-free-5.15.4-web/css/fontawesome.min.css'); */
 /* @import url('../../../../app/assets/fontawesome-free-5.15.4-web/css/fontawesome.min.css'); */
-@import url('/public/assets/fontawesome-free-5.15.4-web/css/all.min.css');
+/* @import url('/public/assets/fontawesome-free-5.15.4-web/css/all.min.css'); */
 @import url('./fontawesome-free-5.15.4-web/css/all.min.css');
 
 .star-wrapper::before, .stars::before{
